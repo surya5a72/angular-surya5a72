@@ -18,8 +18,8 @@ export class AppRoutes{
 
 export const NavRoutes: Routes = [
   { path: 'Home', component: HomeComponent},
-  { path: 'Form', component: '../Components/Areas/Area.module#AreaModule'},
-  { path: 'Employee', component: '../Components/Areas/Area.module#AreaModule'},
+  { path: 'Form', component: 'Area.module#AreaModule'},
+  { path: 'Employee', component: 'Area.module#AreaModule'},
   { path: 'Error', component: ErrorComponent},
   { path: '', redirectTo: '/Home', pathMatch: 'full' },
   { path: '**', component: ErrorComponent }
